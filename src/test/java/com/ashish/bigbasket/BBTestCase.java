@@ -119,6 +119,8 @@ public class BBTestCase {
 
 	// REST POST call
 	public static void test3() {
+	//To start this service run below command from c:\sandbox\jsonserver json-server employees.js  Or json-server --watch db.json (Change this db.json as required) 
+		//https://medium.com/codingthesmartway-com-blog/create-a-rest-api-with-json-server-36da8680136d 
 		RestAssured.baseURI = "http://localhost:3000";
 		RequestSpecification request = RestAssured.given();
 
